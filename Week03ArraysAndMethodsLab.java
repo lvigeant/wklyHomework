@@ -2,12 +2,16 @@ package week03;
 
 public class Week03ArraysAndMethodsLab {
 
-	public static void main(String[] args) {
+	private static Object at2;
+	private static Object charAt;
+
+
+	public static void main(String[] args, Object at) {
 		// Arrays:
 		//
 		
 		// 1. Create an array with the following values 1, 5, 2, 8, 13, 6
-		int[] array = {1, 5, 2, 8, 13, 6, -5};
+		//int[] array = {1, 5, 2, 8, 13, 6, -5};
 	/*	values[0] = 1;
 		values[1] = 5;
 		values[2] = 2;
@@ -16,10 +20,10 @@ public class Week03ArraysAndMethodsLab {
 		values[5] = 6;*/
 		
 		// 2. Print out the first element in the array
-		System.out.println(array[0]);
+		//System.out.println(array[0]);
 			
 		// 3. Print out the last element in the array without using the number 5
-		System.out.println(array[array.length-1]);	
+		//System.out.println(array[array.length-1]);	
 		
 		// 4. Print out the element in the array at position 6, what happens?
 		//System.out.println(array[6]); - out of bounds Array 0-5, 6 > 5
@@ -33,9 +37,9 @@ public class Week03ArraysAndMethodsLab {
 		}
 		
 		// 7. Write an enhanced for loop that prints out each element in the array
-		for (int number : array) {
-			System.out.println(number);
-		}		
+		//for (int number : array) {
+		//	System.out.println(number);
+		//}		
 		// 8. Create a new variable called sum, write a loop that adds 
 		//			each element in the array to the sum
 		int sum = 0;
