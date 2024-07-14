@@ -32,9 +32,9 @@ public class Week03ArraysAndMethodsLab {
 		//System.out.println(array[-1]); out of bounds Array 0-5, -1 < 0
 		
 		// 6. Write a traditional for loop that prints out each element in the array
-		for (int i = 0; i < array.length; i++ ) {
-			System.out.println(array[i]);
-		}
+		//for (int i = 0; i < array.length; i++ ) {
+		//	System.out.println(array[i]);
+		//}
 		
 		// 7. Write an enhanced for loop that prints out each element in the array
 		//for (int number : array) {
@@ -42,22 +42,22 @@ public class Week03ArraysAndMethodsLab {
 		//}		
 		// 8. Create a new variable called sum, write a loop that adds 
 		//			each element in the array to the sum
-		int sum = 0;
-		for (int number : array){
-			sum += number;
-			System.out.println(sum);
-		}			
+		//int sum = 0;
+		//for (int number : array){
+		//	sum += number;
+		//	System.out.println(sum);
+		//}			
 		// 9. Create a new variable called average and assign the average value of the array to it
-		int average = sum / array.length;
+		//int average = sum / array.length;
 				
 		// 10. Write an enhanced for loop that prints out each number in the array 
 		//			only if the number is odd
-		for (int number : array) {
-			sum += number;
-			if (number % 2 == 1) {
-				System.out.println(number + "!");
-			}
-		}
+		//for (int number : array) {
+		//	sum += number;
+		//	if (number % 2 == 1) {
+		//		System.out.println(number + "!");
+		//	}
+		//}
 		// 11. Create an array that contains the values "Sam", "Sally", "Thomas", and "Robert"
 		String[] names = {"Sam", "Sally", "Thomas", "Robert"};
 		
@@ -95,7 +95,7 @@ public class Week03ArraysAndMethodsLab {
 		
 		// 17. Write and test a method that takes an array of int and 
 		//			returns the smallest number in the array
-		System.out.println(findSmallestNumber(array));
+		//System.out.println(findSmallestNumber(array));
 	
 		
 		// 18. Write and test a method that takes an array of double and 
